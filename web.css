@@ -200,6 +200,11 @@ transform: scale(1.1);
 .work:hover #layer{
     height: 100%;
 }
+
+
+nav #fas{
+    display:NONE;
+}
 @media only screen and (max-width: 600px) {
     .images {
         width: 100%;
@@ -215,7 +220,7 @@ transform: scale(1.1);
 
     nav ul li {
         display: block;
-        margin: 5px 0;
+        margin: 25px 0;
     }
 
     .one {
@@ -281,4 +286,26 @@ transform: scale(1.1);
     #layer {
         padding: 0 20px;
     }
+    nav #fas{
+        display:block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    padding-left: 30px;
+    transition: 0.5s;
+    }
+    nav ul #fas{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+
+    }
 }
+
